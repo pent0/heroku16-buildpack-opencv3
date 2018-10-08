@@ -62,7 +62,7 @@ mkdir -p $CACHE_DIR
 title "Generating environment"
 if [ ! -f $CACHE_DIR/vendor.tar.xz ]; then
 	subtitle "Fetching..."
-	curl -s -L "https://static.fountain.com/heroku16-buildpack-opencv3.4.1-v4.tar.gz" > $CACHE_DIR/vendor.tar.xz
+	curl -s -L "https://onedrive.live.com/download?cid=77DA8D3F87DE5E3B&resid=77DA8D3F87DE5E3B%212118&authkey=AJL-IOfWFp3mCWA" > $CACHE_DIR/vendor.tar.xz
 fi
 subtitle "Unpacking..."
 tar -xvf $CACHE_DIR/vendor.tar.xz -C $BUILD_DIR
